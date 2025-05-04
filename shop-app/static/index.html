@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boutique en Ligne</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <!-- Header with dark/light mode toggle and dropdowns -->
+    <header>
+        <button id="mode-toggle" class="toggle-button">🌙</button>
+        <div class="dropdown">
+            <button class="dropdown-button">Profil</button>
+            <div class="dropdown-content">
+                <a href="#">Changer de mot de passe</a>
+                <a href="#">Déconnexion</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropdown-button">Monnaie</button>
+            <div class="dropdown-content">
+                <a href="#">€ EUR</a>
+                <a href="#">$ USD</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main product section -->
+    <main>
+        <h1>Bienvenue à notre boutique!</h1>
+        <div id="product-list" class="product-list"></div>
+    </main>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>
+
